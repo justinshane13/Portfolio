@@ -51,7 +51,7 @@ body:before {
     left: 0;
     right: 100%;
     bottom: -4px;
-    background: rgb(240, 238, 252);
+    background: rgb(180, 24, 43);
     height: 2px;
     transition-property: left right;
     transition-duration: 0.3s;
@@ -65,7 +65,7 @@ body:before {
     left: 0;
     right: 100%;
     bottom: -4px;
-    background: rgb(31, 32, 40);
+    background: rgb(180, 24, 43);
     height: 2px;
     transition-property: left right;
     transition-duration: 0.3s;
@@ -93,10 +93,12 @@ body:before {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .intro {
-    margin-top: 0px;
+    margin-top: 60px;
     justify-content: center;
     text-align: left;
 }
@@ -111,19 +113,17 @@ body:before {
     font-weight: bold;
 }
 
+.red {
+    color: rgb(180, 24, 43);
+}
+
 .summary {
     font-size: 24px;
     width: 815px;
     text-align: left;
     font-weight: 300;
     line-height: 34px;
-}
-
-.summary2-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
+    margin-top: 70px;
 }
 
 .summary2 {
@@ -132,12 +132,25 @@ body:before {
     text-align: left;
     font-weight: 300;
     line-height: 34px;
+    margin-top: 40px;
 }
 
 .social-icons {
     display: flex;
-    margin-top: 10px;
     justify-content: center;
+    margin-top: 40px;
+}
+
+.linkedin {
+    height: 21px;
+    float: right;
+    margin-left: 6px;
+}
+
+.email-image {
+    height: 24px;
+    float: right;
+    margin-left: 6px;
 }
 
 .linkedin-text {
@@ -148,19 +161,22 @@ body:before {
     line-height: 20px;
 }
 
-.linkedin {
-    height: 21px;
-    float: right;
-    margin-left: 6px;
-}
-
 .github-text {
     font-size: 24px;
     font-weight: 300;
     text-decoration: none;
     color:rgb(240, 238, 252);
-    margin-left: 20px;
+    margin-left: 30px;
     line-height: 20px;
+}
+
+.email-text {
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+    color:rgb(240, 238, 252);
+    line-height: 20px;
+    margin-left: 30px;
 }
 
 .projects-container {
@@ -189,15 +205,15 @@ body:before {
 .img-container .img-button-a {
     position: absolute;
     top: 10%;
-    left: 16%;
+    left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-weight: bold;
     background-color: transparent;
     background-repeat: no-repeat;
     color: rgb(240, 238, 252);
-    font-size: 15px;
-    padding: 12px 24px;
+    font-size: 18px;
+    padding: 6px 6px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -217,28 +233,29 @@ body:before {
     background-color: transparent;
     background-repeat: no-repeat;
     color: rgb(240, 238, 252);
-    font-size: 15px;
-    padding: 12px 24px;
+    font-size: 18px;
+    padding: 6px 6px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     opacity: 0;
     transition: .5s;
     font-family: Lato;
+    text-decoration: none;
 }
 
 .img-container .img-button-c {
     position: absolute;
     top: 10%;
-    left: 81.5%;
+    left: 77.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-weight: bold;
     background-color: transparent;
     background-repeat: no-repeat;
     color: rgb(240, 238, 252);
-    font-size: 15px;
-    padding: 12px 24px;
+    font-size: 18px;
+    padding: 6px 6px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -328,12 +345,11 @@ body:before {
         font-weight: 300;
     }
 
-    .summary2-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        align-items: center;
+    .summary2 {
+        font-size: 24px;
         width: 600px;
+        text-align: left;
+        font-weight: 300;
     }
 
     .projects-container {
@@ -343,6 +359,18 @@ body:before {
         grid-template-columns: 600px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .img-container .img-button-a {
+        font-size: 30px;
+    }
+
+    .img-container .img-button-b {
+        font-size: 30px;
+    }
+
+    .img-container .img-button-c {
+        font-size: 30px;
     }
 
     .made-with {
@@ -355,13 +383,110 @@ body:before {
 }
 
 @media screen and (max-width: 700px) {
-    .summary2-container {
-        width: 418px;
+    .summary {
+        width: 518px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .summary2 {
+        width: 518px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projects-container {
+        width: 500px;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
-@media screen and (max-width: 400px) {
-    .summary2-container {
-        width: 318px;
+@media screen and (max-width: 652px) {
+    
+    .top-section {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .summary {
+        width: 85%;
+    }
+
+    .summary2 {
+        width: 85%;
+    }
+
+    .projects-container {
+        width: 500px;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-container .img-button-a {
+        font-size: 26px;
+    }
+
+    .img-container .img-button-b {
+        font-size: 26px;
+    }
+
+    .img-container .img-button-c {
+        font-size: 26px;
+    }
+
+    .made-with {
+        font-size: 24px;
+    }
+
+    .built {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .projects-container {
+        width: 350px;
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-container .img-button-a {
+        font-size: 20px;
+    }
+
+    .img-container .img-button-b {
+        font-size: 20px;
+    }
+
+    .img-container .img-button-c {
+        font-size: 20px;
+    }
+
+    .made-with {
+        font-size: 20px;
+    }
+
+    .built {
+        font-size: 16px;
+    }
+}
+
+    .summary {
+        width: 80%;
+    }
+
+    .summary2 {
+        width: 80%;
     }
 }

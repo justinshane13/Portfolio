@@ -14,9 +14,13 @@ function toggleMode() {
         document.getElementById("summary2").style.color = "rgb(31, 32, 40)"
         document.getElementById("linkedin-text").style.color = "rgb(31, 32, 40)"
         document.getElementById("github-text").style.color = "rgb(31, 32, 40)"
+        document.getElementById("email-text").style.color = "rgb(31, 32, 40)"
         document.getElementById("home-button").className = "underline-light"
         document.getElementById("projects-button").className = "underline-light"
         document.getElementById("about-button").className = "underline-light"
+        document.getElementById("linkedin-image").src = "./images/linkedin-dark.png"
+        document.getElementById("github-image").src = "./images/GitHub-Mark-32px.png"
+        document.getElementById("email-image").src = "./images/mail-dark.svg"
     } else {
         lightMode = false
         document.body.style.backgroundColor = "rgb(31, 32, 40)"
@@ -28,9 +32,13 @@ function toggleMode() {
         document.getElementById("summary2").style.color = "rgb(240, 238, 244)"
         document.getElementById("linkedin-text").style.color = "rgb(240, 238, 244)"
         document.getElementById("github-text").style.color = "rgb(240, 238, 244)"
+        document.getElementById("email-text").style.color = "rgb(240, 238, 244)"
         document.getElementById("home-button").className = "underline"
         document.getElementById("projects-button").className = "underline"
         document.getElementById("about-button").className = "underline"
+        document.getElementById("linkedin-image").src = "./images/linkedin-light.png"
+        document.getElementById("github-image").src = "./images/GitHub-Mark-Light-120px-plus.png"
+        document.getElementById("email-image").src = "./images/mail.svg"
     }
     console.log(lightMode)
 }
@@ -41,11 +49,8 @@ document.getElementById("img-container1").addEventListener("mouseout", hideButto
 
 function showButtons1() {
     document.getElementById(`img-button-a`).style.opacity = "1"
-    document.getElementById(`img-button-a`).style.border = "3px solid white"
     document.getElementById(`img-button-b`).style.opacity = "1"
-    document.getElementById(`img-button-b`).style.border = "3px solid white"
     document.getElementById(`img-button-c`).style.opacity = "1"
-    document.getElementById(`img-button-c`).style.border = "3px solid white"
     document.getElementById(`project-img1`).style.opacity = "0.15"
     document.getElementById(`made-with1`).style.opacity = "1"
 }
@@ -64,11 +69,8 @@ document.getElementById("img-container2").addEventListener("mouseout", hideButto
 
 function showButtons2() {
     document.getElementById(`img-button-d`).style.opacity = "1"
-    document.getElementById(`img-button-d`).style.border = "3px solid white"
     document.getElementById(`img-button-e`).style.opacity = "1"
-    document.getElementById(`img-button-e`).style.border = "3px solid white"
     document.getElementById(`img-button-f`).style.opacity = "1"
-    document.getElementById(`img-button-f`).style.border = "3px solid white"
     document.getElementById(`project-img2`).style.opacity = "0.15"
     document.getElementById(`made-with2`).style.opacity = "1"
 }
@@ -87,11 +89,8 @@ document.getElementById("img-container3").addEventListener("mouseout", hideButto
 
 function showButtons3() {
     document.getElementById(`img-button-g`).style.opacity = "1"
-    document.getElementById(`img-button-g`).style.border = "3px solid white"
     document.getElementById(`img-button-h`).style.opacity = "1"
-    document.getElementById(`img-button-h`).style.border = "3px solid white"
     document.getElementById(`img-button-i`).style.opacity = "1"
-    document.getElementById(`img-button-i`).style.border = "3px solid white"
     document.getElementById(`project-img3`).style.opacity = "0.15"
     document.getElementById(`made-with3`).style.opacity = "1"
 }
@@ -111,11 +110,8 @@ document.getElementById("img-container4").addEventListener("mouseout", hideButto
 
 function showButtons4() {
     document.getElementById(`img-button-j`).style.opacity = "1"
-    document.getElementById(`img-button-j`).style.border = "3px solid white"
     document.getElementById(`img-button-k`).style.opacity = "1"
-    document.getElementById(`img-button-k`).style.border = "3px solid white"
     document.getElementById(`img-button-l`).style.opacity = "1"
-    document.getElementById(`img-button-l`).style.border = "3px solid white"
     document.getElementById(`project-img4`).style.opacity = "0.15"
     document.getElementById(`made-with4`).style.opacity = "1"
 }
@@ -126,4 +122,9 @@ function hideButtons4() {
     document.getElementById("img-button-l").style.opacity = "0"
     document.getElementById("project-img4").style.opacity = "1"
     document.getElementById(`made-with4`).style.opacity = "0"
+}
+
+// Function to open email form
+function sendEmail() {
+    window.location = "mailto:justinshane13@gmail.com"
 }
