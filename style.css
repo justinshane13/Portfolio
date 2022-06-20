@@ -89,28 +89,31 @@ body:before {
     margin-right: auto;
 }
 
-.top-section {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .intro {
     margin-top: 60px;
     justify-content: center;
+    width: 860px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
     font-size: 45px;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 100%;
 }
 
 .role {
     font-size: 84px;
     font-weight: bold;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .red {
@@ -119,7 +122,7 @@ body:before {
 
 .summary {
     font-size: 24px;
-    width: 815px;
+    width: 100%;
     text-align: left;
     font-weight: 300;
     line-height: 34px;
@@ -128,7 +131,7 @@ body:before {
 
 .summary2 {
     font-size: 24px;
-    width: 815px;
+    width: 100%;
     text-align: left;
     font-weight: 300;
     line-height: 34px;
@@ -194,6 +197,7 @@ body:before {
     background-color: black;
     border-radius: 10px;
     height: 100%;
+    width: 100%;
 }
 
 .img-container img {
@@ -338,18 +342,10 @@ body:before {
 }
 
 @media screen and (max-width: 940px) {
-    .summary {
-        font-size: 24px;
+    .intro {
         width: 600px;
-        text-align: left;
-        font-weight: 300;
-    }
-
-    .summary2 {
-        font-size: 24px;
-        width: 600px;
-        text-align: left;
-        font-weight: 300;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .projects-container {
@@ -383,14 +379,8 @@ body:before {
 }
 
 @media screen and (max-width: 700px) {
-    .summary {
-        width: 518px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .summary2 {
-        width: 518px;
+    .intro {
+        width: 500px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -405,53 +395,41 @@ body:before {
     }
 }
 
-@media screen and (max-width: 652px) {
-    
-    .top-section {
-        width: 85%;
+@media screen and (max-width: 600px) {
+    .intro {
+        width: 350px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .role {
+        font-size: 51px;
     }
 
     .summary {
-        width: 85%;
+        font-size: 20px;
     }
 
     .summary2 {
-        width: 85%;
+        font-size: 20px;
     }
 
-    .projects-container {
-        width: 500px;
-        display: grid;
-        gap: 50px;
-        grid-template-columns: 500px;
-        margin-left: auto;
-        margin-right: auto;
+    .linkedin-text {
+        font-size: 20px;
     }
 
-    .img-container .img-button-a {
-        font-size: 26px;
+    .github-text {
+        font-size: 20px;
     }
 
-    .img-container .img-button-b {
-        font-size: 26px;
+    .email-text {
+        font-size: 20px;
     }
 
-    .img-container .img-button-c {
-        font-size: 26px;
-    }
-
-    .made-with {
-        font-size: 24px;
-    }
-
-    .built {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 550px) {
     .projects-container {
         width: 350px;
         display: grid;
@@ -462,31 +440,22 @@ body:before {
     }
 
     .img-container .img-button-a {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .img-container .img-button-b {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .img-container .img-button-c {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .made-with {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .built {
-        font-size: 16px;
-    }
-}
-
-    .summary {
-        width: 80%;
-    }
-
-    .summary2 {
-        width: 80%;
+        font-size: 14px;
     }
 }
