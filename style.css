@@ -396,6 +396,21 @@ body:before {
 }
 
 @media screen and (max-width: 600px) {
+    .navbar {
+        height: 60px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: rgb(240, 238, 252);
+        margin-right: 20px;
+    }
+
     .intro {
         width: 350px;
         margin-left: auto;
@@ -457,5 +472,15 @@ body:before {
 
     .built {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .intro {
+        width: 300px;
+    }
+
+    .projects-container {
+        width: 300px;
     }
 }
