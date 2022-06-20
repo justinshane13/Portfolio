@@ -401,7 +401,7 @@ body:before {
         display: flex;
         justify-content: right;
         align-items: center;
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
     }
 
@@ -478,9 +478,16 @@ body:before {
 @media screen and (max-width: 375px) {
     .intro {
         width: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .projects-container {
         width: 300px;
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 350px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
