@@ -482,6 +482,36 @@ body:before {
         margin-right: auto;
     }
 
+    .linkedin {
+        height: 18px;
+        float: right;
+        margin-left: 4px;
+    }
+
+    .email-image {
+        height: 18px;
+        float: right;
+        margin-left: 4px;
+    }
+    
+    .github-text {
+        font-size: 24px;
+        font-weight: 300;
+        text-decoration: none;
+        color:rgb(240, 238, 252);
+        margin-left: 15px;
+        line-height: 20px;
+    }
+    
+    .email-text {
+        font-size: 24px;
+        font-weight: 300;
+        text-decoration: none;
+        color:rgb(240, 238, 252);
+        line-height: 20px;
+        margin-left: 15px;
+    }
+
     .projects-container {
         width: 300px;
         display: grid;
