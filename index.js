@@ -1,11 +1,13 @@
 let lightMode = false
 
-document.getElementById("light-dark-button").addEventListener("click", toggleMode)
+document.getElementById("mode-button").addEventListener("click", toggleMode)
 
 function toggleMode() {
     if (lightMode === false) {
         lightMode = true
         document.body.style.backgroundColor = "rgb(240, 238, 244)"
+        document.getElementById("light-word").style.color = "rgb(31, 32, 40)"
+        document.getElementById("dark-word").style.color = "rgb(31, 32, 40)"
         document.getElementById("home-button").style.color = "rgb(31, 32, 40)"
         document.getElementById("title").style.color = "rgb(31, 32, 40)"
         document.getElementById("role").style.color = "rgb(31, 32, 40)"
@@ -25,6 +27,8 @@ function toggleMode() {
     } else {
         lightMode = false
         document.body.style.backgroundColor = "rgb(31, 32, 40)"
+        document.getElementById("light-word").style.color = "rgb(240, 238, 244)"
+        document.getElementById("dark-word").style.color = "rgb(240, 238, 244)"
         document.getElementById("home-button").style.color = "rgb(240, 238, 244)"
         document.getElementById("title").style.color = "rgb(240, 238, 244)"
         document.getElementById("role").style.color = "rgb(240, 238, 244)"

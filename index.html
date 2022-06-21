@@ -12,7 +12,14 @@
   </head>
   <body>
     <nav class="navbar">
-        <button id="light-dark-button" class="light-dark-button">Light-Dark</button>
+        <div class="mode-button-container">
+            <p class="light-word" id="light-word">Light</p>
+            <label class="switch">
+                <input id="mode-button" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <p class="dark-word" id="dark-word">Dark</p>
+        </div>
         <div><a id="home-button" href="index.html" class="underline">Home</a></div>
         <div><a id="projects-button" href="#projects-container" class="underline">Projects</a></div>
         <div><a id="about-button" href="about.html" class="underline">About</a></div>
