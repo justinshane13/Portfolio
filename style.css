@@ -75,7 +75,7 @@ body:before {
     width: 22px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: rgb(180, 24, 43);
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -85,7 +85,7 @@ body:before {
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px rgb(31, 32, 40);
   }
   
   input:checked + .slider:before {
