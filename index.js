@@ -6,8 +6,11 @@ function toggleMode() {
     if (lightMode === false) {
         lightMode = true
         document.body.style.backgroundColor = "rgb(240, 238, 244)"
-        document.getElementById("light-word").style.color = "rgb(31, 32, 40)"
-        document.getElementById("dark-word").style.color = "rgb(31, 32, 40)"
+        document.body.style.text = "rgb(240, 238, 244)"
+        document.getElementById("slider-round").textContent = "Light"
+        document.getElementById("slider-round").style.textAlign = "left"
+        document.getElementById("slider-round").style.color = "rgb(240, 238, 244)"
+        document.getElementById("slider-round").textContent = "Light"
         document.getElementById("home-button").style.color = "rgb(31, 32, 40)"
         document.getElementById("title").style.color = "rgb(31, 32, 40)"
         document.getElementById("role").style.color = "rgb(31, 32, 40)"
@@ -27,8 +30,10 @@ function toggleMode() {
     } else {
         lightMode = false
         document.body.style.backgroundColor = "rgb(31, 32, 40)"
-        document.getElementById("light-word").style.color = "rgb(240, 238, 244)"
-        document.getElementById("dark-word").style.color = "rgb(240, 238, 244)"
+        document.body.style.text = "rgb(31, 32, 40)"
+        document.getElementById("slider-round").textContent = "Dark"
+        document.getElementById("slider-round").style.textAlign = "right"
+        document.getElementById("slider-round").style.color = "rgb(31, 32, 40)"
         document.getElementById("home-button").style.color = "rgb(240, 238, 244)"
         document.getElementById("title").style.color = "rgb(240, 238, 244)"
         document.getElementById("role").style.color = "rgb(240, 238, 244)"
