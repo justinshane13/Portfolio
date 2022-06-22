@@ -97,8 +97,8 @@ body:before {
   /* Rounded sliders */
   .slider.round {
     border-radius: 30px;
-    font-size: 16px;
-    padding-top: 2px;
+    font-size: 15px;
+    padding-top: 3px;
     padding-right: 8px;
     padding-left: 8px;
     text-align: right;
