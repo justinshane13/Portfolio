@@ -11,17 +11,21 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar">
+    <nav id="navbar" class="navbar">
         <div class="mode-button-container">
             <label class="switch">
                 <input id="mode-button" type="checkbox">
                 <span class="slider round" id="slider-round">Dark</span>
             </label>
         </div>
-        <div><a id="home-button" href="index.html" class="underline">Home</a></div>
-        <div><a id="projects-button" href="projects.html" class="underline">Projects</a></div>
-        <div><a id="about-button" href="about.html" class="underline">About</a></div>
+        <div class="menu-items">
+            <div><a id="home-button" href="#navbar" class="underline">Home</a></div>
+            <div><a id="projects-button" href="#work-section-title" class="underline">Work</a></div>
+            <div><a id="about-button" href="#about-section-title" class="underline">About</a></div>
+            <div><a id="contact-button" href="#contact-section-title" class="underline">Contact</a></div>
+        </div>
     </nav>
+    <!-- Beginning of Introduction section -->
     <div class="intro">
         <h1 id="title" class="title">Justin Thomas |</h1>
         <span id="role" class="role">Web Developer<span class="red">.</span></span>
@@ -33,16 +37,16 @@
             <a id="email-text" class="email-text" onclick="sendEmail()" href="#0"><div class="social-container"><p>Email</p><img id="email-image" src="./images/mail.svg" class="email-image"/></div></a>
         </div>
     </div>
-    <hr />
-    <div class="section-title">
-        <div id="projects-section-title" class="role">Projects<span class="red">.</span></div>
+    <hr id="work-divider"/>
+    <!-- Beginning of Work section -->
+    <div id="work-section-title" class="section-title">
+        <div id="projects-section-title" class="role">Work<span class="red">.</span></div>
     </div>
     <div id="projects-container" class="projects-container">
         <div class="img-container" id="img-container1">
             <img src="./images/MovieWatchlist1.png" class="project-img" id="project-img1"/>
             <a class="img-button-a" id="img-button-a" href="https://moviewatchlistjt.netlify.app" target="_blank">Live Site</a>
             <a class="img-button-b" id="img-button-b" href="https://github.com/justinshane13/Movie-Watchlist" target="_blank">GitHub</a>
-            <a class="img-button-c" id="img-button-c">Learn More</a>
             <div class="made-with" id="made-with1">
                 <p class="built">Built with:</p>
                 <p class="tools">HTML | CSS | JavaScript | API</p>
@@ -52,7 +56,6 @@
             <img src="./images/Recipe-Generator-Image.png" class="project-img" id="project-img2"/>
             <a class="img-button-a" id="img-button-d" href="https://recipegeneratorjt.netlify.app" target="_blank">Live Site</a>
             <a class="img-button-b" id="img-button-e" href="https://github.com/justinshane13/Recipe-Generator" target="_blank">GitHub</a>
-            <a class="img-button-c" id="img-button-f">Learn More</a>
             <div class="made-with" id="made-with2">
                 <p class="built">Built with:</p>
                 <p class="tools">HTML | CSS | JavaScript | API</p>
@@ -62,7 +65,6 @@
             <img src="./images/Color Scheme Generator.png" class="project-img" id="project-img3"/>
             <a class="img-button-a" id="img-button-g" href="https://colorschemegeneratorjt.netlify.app" target="_blank">Live Site</a>
             <a class="img-button-b" id="img-button-h" href="https://github.com/justinshane13/Color-Scheme-Generator" target="_blank">GitHub</a>
-            <a class="img-button-c" id="img-button-i">Learn More</a>
             <div class="made-with" id="made-with3">
                 <p class="built">Built with:</p>
                 <p class="tools">HTML | CSS | JavaScript | API</p>
@@ -72,7 +74,6 @@
             <img src="./images/Password Generator.png" class="project-img" id="project-img4"/>
             <a class="img-button-a" id="img-button-j" href="https://passwordgeneratorjt.netlify.app" target="_blank">Live Site</a>
             <a class="img-button-b" id="img-button-k" href="https://github.com/justinshane13/Password-Generator" target="_blank">GitHub</a>
-            <a class="img-button-c" id="img-button-l">Learn More</a>
             <div class="made-with" id="made-with4">
                 <p class="built">Built with:</p>
                 <p class="tools">HTML | CSS | JavaScript | API</p>
@@ -80,8 +81,9 @@
         </div>
     </div>
     <hr />
-    <div class="section-title">
-        <div id="projects-section-title" class="role">About<span class="red">.</span></div>
+    <!-- Beginning of About section -->
+    <div id="about-section-title" class="section-title">
+        <div id="about-section-title" class="role">About<span class="red">.</span></div>
     </div>
     <div class="about-container">
       <h3 class="about-summary-work">When I started learning software development, I felt like I was fulfilling a long-awaited dream. Both problem-solving and technology have fascinated me since childhood, so combining them in my career just felt right. My goal is to help solve the problems people face – big and small – by building software and tools that are effective, intuitive, and user-friendly.</h3>
@@ -92,7 +94,7 @@
       <h3 class="about-summary-work2">When it comes to my coding and working philosophy, I try to focus on three things.</h3>
       <ul>
         <li>First, I want my work to make the team better as a whole. When collaborating with others, I try to listen actively and explain myself clearly so I can contribute to the team's success, not hinder it.</li>
-        <li>Second, I am always learning. I'll never know all there is to know about a topic, but the more I take in, the more I can contribute.</li>
+        <li>Second, I am always learning. I'll never know all there is to know about a topic. The more I take in, the more I can contribute.</li>
         <li>Third, I try to accept my mistakes quickly so they can be remedied and a solution can be found.</li>
       </ol>
     </div>
