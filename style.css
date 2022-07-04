@@ -726,4 +726,22 @@ hr {
         line-height: 20px;
         margin-left: 0px;
     }
+
+    .about-container {
+        width: 300px;
+    }
+
+    .about-with-photo {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .headshot {
+        margin-top: 40px;
+    }
 }
