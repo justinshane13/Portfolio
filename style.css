@@ -729,6 +729,7 @@ hr {
 
     .about-container {
         width: 300px;
+        font-size: 20px;
     }
 
     .about-with-photo {
