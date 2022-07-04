@@ -667,6 +667,18 @@ hr {
         width: 350px;
     }
 
+    .about-summary-work {
+        font-size: 20px;
+    }
+
+    .about-summary-personal {
+        font-size: 20px;
+    }
+
+    .about-summary-work2 {
+        font-size: 20px;
+    }
+
     .about-with-photo {
         display: flex;
         flex-direction: column;
@@ -675,6 +687,10 @@ hr {
         margin-right: auto;
         margin-top: 40px;
         align-items: center;
+    }
+
+    .about-list {
+        font-size: 20px;
     }
 
     .headshot {
@@ -729,6 +745,21 @@ hr {
 
     .about-container {
         width: 300px;
+    }
+
+    .about-summary-work {
+        font-size: 20px;
+    }
+
+    .about-summary-personal {
+        font-size: 20px;
+    }
+
+    .about-summary-work2 {
+        font-size: 20px;
+    }
+
+    .about-list {
         font-size: 20px;
     }
 
