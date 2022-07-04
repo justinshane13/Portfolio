@@ -37,7 +37,6 @@ body:before {
 
 .menu-items {
     display: flex;
-    
 }
 
 .mode-button-container {
@@ -299,6 +298,12 @@ hr {
     align-items: flex-end;
 }
 
+.work-section-container {
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .projects-container {
     width: 860px;
     display: grid;
@@ -400,6 +405,10 @@ hr {
     margin-top: 5px;
 }
 
+.project-description {
+    text-align: left;
+}
+
 .about-title {
     font-size: 84px;
     font-weight: bold;
@@ -407,7 +416,7 @@ hr {
 
 .about-summary-work {
     font-size: 24px;
-    width: 850px;
+    width: 100%;
     text-align: left;
     font-weight: 300;
     margin-left: auto;
@@ -461,7 +470,7 @@ hr {
     margin-top: 80px;
 }
 
-ul {
+.about-list {
     font-size: 24px;
     text-align: left;
     margin-top: 0px;
@@ -480,6 +489,12 @@ ul {
         display: grid;
         gap: 60px;
         grid-template-columns: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work-section-container {
+        width: 600px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -503,6 +518,19 @@ ul {
     .built {
         font-size: 18px;
     }
+
+    .about-container {
+        width: 600px;
+    }
+
+    .about-with-photo {
+        display: flex;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -519,6 +547,30 @@ ul {
         grid-template-columns: 500px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .work-section-container {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-container {
+        width: 500px;
+    }
+
+    .about-with-photo {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        align-items: center;
+    }
+
+    .headshot {
+        margin-top: 50px;
     }
 }
 
@@ -585,6 +637,12 @@ ul {
         margin-right: auto;
     }
 
+    .work-section-container {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .img-container .img-button-a {
         font-size: 18px;
     }
@@ -603,6 +661,24 @@ ul {
 
     .built {
         font-size: 14px;
+    }
+
+    .about-container {
+        width: 350px;
+    }
+
+    .about-with-photo {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .headshot {
+        margin-top: 40px;
     }
 }
 
