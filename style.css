@@ -475,6 +475,7 @@ hr {
     text-align: left;
     margin-top: 0px;
     line-height: 34px;
+    width: 850px;
 }
 
 @media screen and (max-width: 940px) {
@@ -482,6 +483,14 @@ hr {
         width: 600px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    hr {
+        width: 600px;
+    }
+
+    .section-title {
+        width: 600px;
     }
 
     .projects-container {
@@ -531,6 +540,10 @@ hr {
         margin-top: 80px;
         align-items: center;
     }
+
+    .about-list {
+        width: 600px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -538,6 +551,10 @@ hr {
         width: 500px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    hr {
+        width: 500px;
     }
 
     .projects-container {
@@ -555,6 +572,10 @@ hr {
         margin-right: auto;
     }
 
+    .section-title {
+        width: 500px;
+    }
+
     .about-container {
         width: 500px;
     }
@@ -567,6 +588,14 @@ hr {
         margin-right: auto;
         margin-top: 80px;
         align-items: center;
+    }
+
+    .about-summary-work2 {
+        width: 500px;
+    }
+
+    .about-list {
+        width: 500px;
     }
 
     .headshot {
@@ -600,12 +629,21 @@ hr {
         margin-right: auto;
     }
 
+    hr {
+        width: 350px;
+    }
+
+    .section-title {
+        width: 3500px;
+    }
+
     .title {
         font-size: 40px;
     }
 
     .role {
         font-size: 51px;
+        width: 100%;
     }
 
     .summary {
@@ -665,18 +703,24 @@ hr {
 
     .about-container {
         width: 350px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about-summary-work {
         font-size: 20px;
+        width: 350px;
     }
 
     .about-summary-personal {
         font-size: 20px;
+        width: 350px;
     }
 
     .about-summary-work2 {
         font-size: 20px;
+        width: 350px;
+        margin-left: auto;
     }
 
     .about-with-photo {
@@ -686,11 +730,12 @@ hr {
         margin-left: auto;
         margin-right: auto;
         margin-top: 40px;
-        align-items: center;
+
     }
 
     .about-list {
         font-size: 20px;
+        width: 330px;
     }
 
     .headshot {
@@ -703,6 +748,18 @@ hr {
         width: 300px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    hr {
+        width: 300px;
+    }
+
+    .section-title {
+        width: 300px;
+    }
+
+    .role {
+        width: 100%;
     }
 
     .projects-container {
@@ -753,14 +810,17 @@ hr {
 
     .about-summary-personal {
         font-size: 20px;
+        width: 300px;
     }
 
     .about-summary-work2 {
         font-size: 20px;
+        width: 300px;
     }
 
     .about-list {
         font-size: 20px;
+        width: 100%;
     }
 
     .about-with-photo {
@@ -770,7 +830,6 @@ hr {
         margin-left: auto;
         margin-right: auto;
         margin-top: 40px;
-        align-items: center;
     }
 
     .headshot {
