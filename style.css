@@ -298,6 +298,27 @@ hr {
     align-items: flex-end;
 }
 
+.tools-section {
+    margin-top: 70px;
+    text-align: left;
+}
+
+.tools-title {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.tools-list {
+    display: flex;
+    height: 40px;
+}
+
+.tool-item {
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
 .work-section-container {
     width: 860px;
     margin-left: auto;
