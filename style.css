@@ -658,10 +658,6 @@ hr {
         width: 100%;
     }
 
-    .menu-items {
-        display: none;
-    }
-
     .navbar a {
         text-decoration: none;
         color: rgb(240, 238, 252);
@@ -863,6 +859,26 @@ hr {
         color:rgb(240, 238, 252);
         line-height: 20px;
         margin-left: 0px;
+    }
+
+    .tools-section {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tools-title {
+        font-size: 1.6em;
+    }
+
+    .tools-list {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .tool-item {
+        font-size: 1em;
+        margin-right: 10px;
     }
 
     .about-container {
