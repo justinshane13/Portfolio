@@ -319,6 +319,15 @@ hr {
     font-size: 1.2em;
 }
 
+.projects-title {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    width: 90%;
+    text-align: left;
+}
+
 .work-section-container {
     width: 860px;
     margin-left: auto;
