@@ -10,6 +10,7 @@ body {
     color: rgb(240, 238, 244);
     font-family: Lato, sans-serif;
     position: relative;
+    overflow-x: hidden;
 }
 
 body:before {
@@ -69,6 +70,7 @@ body:before {
 .dark-mode-icon-moon {
     width: 16px;
     height: 16px;
+    margin-left: -1px;
     margin-top: 3px;
     margin-right: 2px;
     z-index: 99;
