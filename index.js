@@ -174,6 +174,24 @@ function hideButtons6() {
     document.getElementById(`made-with6`).style.opacity = "0"
 }
 
+// Changes for project box #7
+document.getElementById("img-container7").addEventListener("mouseover", showButtons7)
+document.getElementById("img-container7").addEventListener("mouseout", hideButtons7)
+
+function showButtons7() {
+    document.getElementById(`img-button-q`).style.opacity = "1"
+    document.getElementById(`img-button-r`).style.opacity = "1"
+    document.getElementById(`project-img7`).style.opacity = "0.15"
+    document.getElementById(`made-with7`).style.opacity = "1"
+}
+
+function hideButtons7() {
+    document.getElementById("img-button-q").style.opacity = "0"
+    document.getElementById("img-button-r").style.opacity = "0"
+    document.getElementById("project-img7").style.opacity = "1"
+    document.getElementById(`made-with7`).style.opacity = "0"
+}
+
 // Function to open email form
 function sendEmail() {
     window.location = "mailto:justinshane13@gmail.com"
